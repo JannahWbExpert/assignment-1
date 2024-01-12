@@ -11,7 +11,7 @@ main, header {
 
 header{
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Banner\ Image.png');
     background-size: contain;
     flex-shrink: 0;
     color: #FFF;
@@ -64,7 +64,7 @@ header{
 
 .party {
     flex-shrink: 0;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Vectorrr.png');
     background-size: contain;
     display: flex;
 }
@@ -205,7 +205,7 @@ header{
     height: 662px;
     margin-top: 80px;
     display: flex;
-    background-image:  url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
+    background-image:  url('Rectangle\ 2.png'), url('Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom, top right;
 }
