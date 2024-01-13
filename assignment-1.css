@@ -3,8 +3,11 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-main, header { 
-    /* margin: 0px 30px 0px; */
+header { 
+     margin: 0px 100px;
+}
+main{
+    margin: 25px;
 }
 
 /* header related styles */
@@ -64,7 +67,7 @@ header{
 
 .party {
     flex-shrink: 0;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('party.jpg');
     background-size: contain;
     display: flex;
 }
@@ -78,7 +81,7 @@ header{
     padding-top:  20px;
     color: #FFF;
     font-family: 'Merriweather', serif;
-    font-size: 64px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 900;
     line-height: 88px; 
@@ -105,6 +108,7 @@ header{
     padding: 25px 25px;
     border: 0;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 /* hotel related style */
@@ -140,8 +144,8 @@ header{
     border: 0;
     border-radius: 10px;
     margin-top: 25px;
+    cursor: pointer;
 }
-
 /* offer related styles */
 
 .offer{
@@ -202,19 +206,19 @@ header{
     margin-bottom: 10px;
 }
 .holiday-img{
-    height: 662px;
+    height: 700px;
     margin-top: 80px;
     display: flex;
-    background-image:  url('Rectangle 2.png'), url('Rectangle 1.png');
+    background-image:  url('Rectangle 2.png'), url('shopping.PNG');
     background-repeat: no-repeat;
     background-position: bottom, top right;
 }
 .gift-box{
-    padding: 80px 20px 20px 0px;
+    padding: 120px 0px 20px;
     position: top right;
 }
 .circle-pic{
-    padding: 80px 220px 300px 0px;
+    padding: 120px 200px 360px 0px;
 }
 /* portfolio related styles */
 
@@ -265,14 +269,15 @@ header{
     width: 210px;
     height: 72px;
     flex-shrink: 0;
-    position: relative;
-    text-transform: uppercase;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+    text-transform: uppercase;
+    position: relative;
     left: -5px;
+    cursor: pointer;
 }
 
 /* footer related style */
